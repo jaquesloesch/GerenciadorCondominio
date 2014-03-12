@@ -1,0 +1,94 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.header {
+	background: url(/prescricao/resources/img/rxscanner/bg-topo.png) right center
+}
+
+.header-textos {
+	background: url(/prescricao/resources/img/rxscanner/rxscanner-header.png) 10px center
+		no-repeat;}
+
+.ui-state-active {
+	background-color: #F24040 !important;}
+	
+.ui-dialog-titlebar {background: #F24040;}
+	
+.titulo-principal {	color: #F24040;}
+.painel-pesquisa .ui-panel-title {color: #F24040;}
+.resultados-busca .ui-widget-header {color: #F24040;}
+
+
+
+.menu-principal .ui-menuitem-link {
+	color: #F24040;	
+}
+
+.ui-datatable-tablewrapper .ui-state-default,.ui-datatable-tablewrapper .ui-widget-content .ui-state-default,.ui-datatable-tablewrapper .ui-widget-header .ui-state-default
+	{
+	color: #F24040;	
+}
+
+.ui-panel-title {	color: #F24040;
+}
+
+.txt-area-quantidade {	color: #F24040;
+
+}
+
+.campo-nome-med {	color: #F24040;
+
+}
+
+.campo-posologia {	color: #F24040;
+
+}
+
+.ui-state-active {	background-color: #F24040 !important;
+
+}
+
+.ui-dialog-titlebar {	background: #F24040;
+}
+
+.valor-destacado {
+	color: #F24040 !important;
+	font-size: 22px  !important;
+	font-weight: bold  !important;
+}
+
+.medicamento-destacado {
+	font-size: 16px  !important;
+	font-weight: bold  !important;
+	color: #F24040 !important;
+}
+.medicamento-reduzido {
+	font-size: 12px !important;
+	font-style: italic;
+	color: ##666666;
+}
+.resultados-busca .ui-state-default {	
+	color: #000 !important;	
+}
+.resultados-busca button {background: none !important}
+
+.panel-pesquisa input[type="text"]{ 
+	font-size: 14px !important; 
+	padding: 5px; 
+	font-weight: bold  !important;	
+}
+
+td {vertical-align: top !important;}
+
+.ui-panel-titlebar {border-bottom: 1px solid #F24040;}
+.panel-pesquisa {
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	width: 338px;
+	padding: 15px !important
+}
+
+.medicamentos table tr td {
+	padding: 15px !important;
+}

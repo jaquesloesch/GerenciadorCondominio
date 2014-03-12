@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+.noBorder tr,.noBorder td {
+	border: none !important;
+}
+
+.ui-panel-content .ui-widget-content {
+	border: 1px !important;
+}
+
+.nomePaciente {
+	width: 220px;
+}
+
+.labels {
+	/* 	color:rgb(0, 133, 178) !important;	 */
+	
+}
+
+.boldlabels {
+	color: rgb(0, 133, 178) !important;
+	font-weight: bold;
+}
+
+.inputText {
+	width: 150px !important;
+	height: 30px !important;
+}

@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1";
+
+.sair-home {
+	color: #fff;
+	font-size: 11px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.meus-dados-home {
+	color: #fff;
+	font-size: 11px;
+	margin-top: 20px;
+	margin-left: 20%;
+}
+
+.guia-usuario {
+	color: #fff;
+	font-size: 11px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.panel-recuperar-senha {
+	text-align: center;
+}
+
+.email-recuperar-senha {
+	width: 250px;
+	margin-left: 30px;
+}
+
+.fontDefault {
+	font-size: 12px !important;
+}
+
+.rxco-input-text {
+	font-size: 12px !important;
+}
+
+.rxco-input-number {
+	font-size: 12px !important;
+}
+
+.fieldset-home {
+	margin-left: 20px;
+	height: auto;
+	min-height: 50%;
+	width: 95%;
+	text-align: center;
+	/*background-color: #fff;*/
+}
+
+/*Sobre escrito*/
+.ui-panel-titlebar {
+	text-align: left;
+}
+
+.selOneMenuLocAtend {
+	width: 40%;
+}
+
+.txt-area-quantidade {
+	width: 48px;
+	height: 48px;
+	font-size: 25px;
+}
+
+.txt-area-medicamento {
+	width: 100%;
+}
+
+.txt-area-posologia {
+	width: 100%;
+}
+
+.txt-campos-pesquisa {
+	width: 250px;
+}
+
+.txt-campos-resultado {
+	width: 250px;
+}
+
+.panelGroupMedicamento {
+	height: 600px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.panelConsultaMedicamento {
+	width: 70%;
+}
+
+.medicamentoNovoRow {
+	background-color: #CCCCCC;
+}
+
+.panelDadosPaciente {
+	width: 100%
+}
+
+.panelEnderecoPaciente {
+	width: 30%
+}
+
+.imgReceitaTabela {
+	width: 24px;
+	height: 24px;
+}
+
+.fileUploadParametros {
+	width: 400px;
+}
+

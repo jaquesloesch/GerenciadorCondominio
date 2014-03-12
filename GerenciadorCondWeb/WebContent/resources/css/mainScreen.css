@@ -1,0 +1,857 @@
+@CHARSET "ISO-8859-1";
+
+.ui-paginator {
+	text-align: center !important
+}
+
+.ui-menubar .ui-menuitem-link {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.ui-chkbox+.ui-outputlabel {
+	display: inline !important;
+	margin-left: 5px;
+}
+
+label {
+	font-size: 12px !important;
+	text-align: right;
+	display: block;
+	width: auto;
+}
+
+.ui-selectonemenu-label,.ui-label-left,.ui-outputlabel {
+	text-align: left;
+}
+
+.ui-label-right {
+	text-align: right !important;
+	width: 150px
+}
+
+.area-login td span {
+	display: block;
+	text-align: right;
+}
+
+.area-login .ui-widget-content {
+	background: none;
+}
+
+.fieldset-home {
+	text-align: left !important;
+	border: none;
+	padding: 0
+}
+
+.area-login .ui-widget-header {
+	display: none;
+}
+
+.area-login td button span {
+	display: inline;
+}
+
+.area-login td span.ui-widget-header {
+	text-align: left;
+}
+
+.ui-commandlink {
+	font-size: 12px !important;
+	color: blue;
+}
+
+.dados-pessoais {
+	margin-right: 170px;
+	margin-top: 20px;
+	width: 250px;
+}
+
+.dados-pessoais .ui-commandlink {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.dados-pessoais {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.recuperar-senha {
+	display: inline;
+}
+
+.noBorder tr,.noBorder td {
+	border: none !important;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.header {
+	width: 100%;
+	height: 64px;
+	margin-top: 10px;
+	margin-right: 150px;
+	background: url(/prescricao/resources/img/bg-topo.png) right center
+}
+
+.header-textos {
+	background: url(/prescricao/resources/img/estetoscopio.png) 10px center
+		no-repeat;
+	padding-top: 20px;
+	padding-left: 70px;
+	height: 45px;
+}
+
+.bem-vindo {
+	display: inline !important;
+	color: #fff;
+	font-size: 12px !important;
+	margin-top: 20px;
+}
+
+.titulo-principal {
+	display: block;
+	color: #0085B2;
+	border-bottom: 2px solid #999;
+	margin-left: 20px;
+	font-size: 22px !important;
+	font-weight: bold;
+	margin-top: 20px;
+	width: 90%
+}
+
+.totalizador {
+	display: block;
+	margin-left: 190px;
+	text-align: right !important;
+	font-size: 22px !important;
+	font-weight: bold;
+	margin-top: 20px;
+	width: 90%;
+}
+
+.pesquisa .ui-panelgrid td {
+	border: none;
+}
+
+.painel-pesquisa {
+	margin-top: 30px;
+	border: none;
+}
+
+.painel-pesquisa .ui-panel-titlebar {
+	background: none;
+	border: none;
+}
+
+.painel-pesquisa .ui-panel-title {
+	color: #0085B2;
+	font-size: 18px;
+}
+
+.pesquisa .ui-panelgrid td label {
+	font-size: 12px;
+}
+
+.ui-breadcrumb {
+	background: none;
+	border: none;
+}
+
+.menu-home {
+	float: right;
+	margin-top: -55px;
+	margin-right: 10px;
+	background: #ccc url("/prescricao/resources/img/bg/bg-menu.png")
+		repeat-x;
+	background: #ccc linear-gradient(top, #fff, rgba(255, 255, 255, 0));
+	background: #ccc
+		-webkit-gradient(linear, left top, left bottom, from(#fff),
+		to(rgba(255, 255, 255, 0)));
+	background: #ccc -moz-linear-gradient(top, #fff, rgba(255, 255, 255, 0));
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0 0 3px #fff;
+	-webkit-box-shadow: 0 0 3px #fff;
+	box-shadow: 0 0 0 15px #fff;
+}
+
+.menu-label-home {
+	float: right;
+	margin-top: -12px;
+}
+
+.menu-rodape {
+	float: right;
+	margin-right: 10px;
+	background: #ccc url("/prescricao/resources/img/bg/bg-menu.png")
+		repeat-x;
+	background: #ccc linear-gradient(top, #fff, rgba(255, 255, 255, 0));
+	background: #ccc
+		-webkit-gradient(linear, left top, left bottom, from(#fff),
+		to(rgba(255, 255, 255, 0)));
+	background: #ccc -moz-linear-gradient(top, #fff, rgba(255, 255, 255, 0));
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0 0 3px #fff;
+	-webkit-box-shadow: 0 0 3px #fff;
+	box-shadow: 0 0 0 15px #fff;
+	margin-top: -25px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background: #999;
+	margin-top: 50px
+}
+
+fieldset form .menu-home {
+	margin-top: -65px;
+}
+
+.menu-home .ui-state-hover,.menu-rodape .ui-state-hover {
+	background: none !important;
+}
+
+.menu-home span.ui-menuitem-text,.menu-rodape span.ui-menuitem-text {
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 5px !important;
+}
+
+.resultados-busca {
+	width: 100%;
+	margin-top: 20px
+}
+
+.resultados-busca .ui-widget-header {
+	background: none;
+}
+
+.resultados-busca .ui-widget-header {
+	font-size: 12px;
+	color: #0085B2;
+	font-weight: bold;
+}
+
+.resultados-busca .ui-widget-header,.resultados-busca td {
+	border: none !important;
+	text-align: left;
+}
+
+.resultados-busca .ui-state-default {
+	font-size: 12px;
+	color: #0085B2;
+	font-weight: bold;
+}
+
+.resultados-busca .ui-state-default,.resultados-busca td {
+	border: none !important;
+	text-align: left;
+}
+
+.resultados-busca td {
+	font-size: 12px;
+	color: #000;
+}
+
+.resultados-busca .ui-widget-content {
+	border: none;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.resultados-busca tr.ui-widget-content:hover {
+	background: #E9E9E9;
+}
+
+.tabelaInterior .ui-widget-content {
+	background: #fff
+}
+
+.tabelaInterior {
+	margin: 0
+}
+
+.tabelaInterior tr.ui-widget-content:hover,.no-hover tr.ui-widget-content:hover
+	{
+	background: #fff !important;
+}
+
+.no-hover tr button {
+	background: none !important;
+	border: 1px solid #ccc !important;
+}
+
+.no-hover button span {
+	top: 0 !important;
+	margin-top: 2px !important;
+	left: 4px !important;
+	margin-left: 0 !important;
+}
+
+.imprimir {
+	visibility: hidden;
+	float: right;
+	text-align: right !important;
+	margin-right: 10px;
+}
+
+.resultados-busca tr.ui-widget-content:hover .imprimir {
+	visibility: visible
+}
+
+.ui-breadcrumb a {
+	text-decoration: none;
+}
+
+.ui-breadcrumb  span.ui-menuitem-text {
+	font-size: 11px;
+	font-weight: bold;
+	color: #777777;
+	text-decoration: none;
+	margin: 0;
+}
+
+.resultados-busca tr.ui-widget-content td {
+	padding: 3px;
+}
+
+.nome-medico {
+	display: inline !important;
+	font-size: 22px !important;
+	color: #fff;
+	margin-left: 10px text-transform:             uppercase;
+}
+
+.ui-panel-content .ui-widget-content {
+	border: 1px !important;
+}
+
+fieldset,ui-panelgrid ui-widget-content {
+	background: none !important
+}
+
+.nomePaciente {
+	width: 220px;
+}
+
+.labels {
+	/*     color:rgb(0, 133, 178) !important;     */
+	
+}
+
+.boldlabels {
+	color: rgb(0, 133, 178) !important;
+	font-weight: bold;
+}
+
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default
+	{
+	border: 1px solid #cdcdcd;
+	font-size: 13px;
+	text-transform: uppercase;
+	background: #ccc url("/prescricao/resources/img/bg/bg-menu.png")
+		repeat-x;
+	background: #cdcdcd linear-gradient(top, rgba(255, 255, 255, 1),
+		rgba(255, 255, 255, 0));
+	background: #cdcdcd
+		-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255,
+		0.8)), to(rgba(255, 255, 255, 0)));
+	background: #cdcdcd -moz-linear-gradient(top, rgba(255, 255, 255, 0.8),
+		rgba(255, 255, 255, 0));
+	font-weight: bold;
+	color: #4f4f4f;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.7);
+}
+
+.inputText {
+	width: 150px !important;
+	height: 30px !important;
+}
+
+.ui-inputfield {
+	border: 1px solid #C4C4C4 !important;
+	font-size: 11px !important;
+	text-transform: none !important;
+	font-weight: normal !important;
+}
+
+.ui-inputfield,.ui-widget-content .ui-inputfield,.ui-widget-header .ui-inputfield
+	{
+	background: #ffffff;
+	padding: 5px;
+	-moz-box-shadow: inset 2px 2px 3px #dddddd;
+	-webkit-box-shadow: inset 2px 1px 3px #dddddd;
+	box-shadow: inset 2px 2px 3px #DDD;
+	color: #313131;
+}
+
+.ui-corner-all {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.ui-panelgrid td {
+	padding: 2px;
+}
+
+.ui-button-text-icon-left .ui-button-text {
+	padding: 9px 10px 9px 40px;
+}
+
+.carregar-mais {
+	background: url('/prescricao/resources/img/load.png') no-repeat
+		!important;
+	width: 24px;
+	height: 24px;
+	margin-top: -13px !important;
+}
+
+.botao-pesquisar {
+	background: url('/prescricao/resources/img/pesquisar.png') no-repeat
+		left top !important;
+	width: 30px;
+	height: 30px;
+	margin-top: -13px !important;
+}
+
+.ui-menubar .ui-menuitem-link {
+	width: auto;
+	padding: 0;
+}
+
+.ui-menuitem-text {
+	margin-left: 5px;
+}
+
+.ui-icon {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.icone-nova-receita {
+	background: url('/prescricao/resources/img/add.png') no-repeat left top
+		!important;
+	width: 24px;
+	height: 24px;
+}
+
+.icone-export {
+	background: url('/prescricao/resources/img/export.png') no-repeat left
+		top !important;
+	width: 24px;
+	margin-left: 10px;
+	height: 25px;
+}
+
+form>button {
+	margin-left: 20px;
+}
+
+.ui-menu .ui-menu-child {
+	background: #ffffff;
+	border: 1px solid #ddd;
+}
+
+.menu-principal {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.menu-principal .ui-menuitem-link {
+	font-size: 12px;
+	font-weight: bold;
+	color: #0085B2;
+	background: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.ui-menu-child .ui-menuitem-link {
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+}
+
+.ui-shadow,.menu-principal .ui-shadow {
+	border: 1px solid #ddd;
+	-moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2)
+}
+
+.fileupload-buttonbar label.ui-button {
+	padding: 2px !important
+}
+
+.rodape {
+	margin-top: 50px;
+	margin-right: 10px;
+	border-top: 1px solid #bbbbbb;
+	text-align: right;
+}
+
+.ui-datatable-odd {
+	background: #f9f9f9
+}
+
+.ui-datatable-even {
+	background: #fff
+}
+
+.ui-datatable-tablewrapper .ui-state-default,.ui-datatable-tablewrapper .ui-widget-content .ui-state-default,.ui-datatable-tablewrapper .ui-widget-header .ui-state-default
+	{
+	border: none;
+	font-size: 13px;
+	background: #F5F5F5;
+	text-transform: none;
+	font-weight: bold;
+	color: #0085B2;
+	text-shadow: none;
+	font-weight: bold;
+}
+
+.ui-breadcrumb {
+	margin-left: 10px !important
+}
+
+.input-txt {
+	width: 430px
+}
+
+.input-nr {
+	width: 130px
+}
+
+.ui-panel {
+	background: #fff;
+	border: none
+}
+
+.ui-panel .ui-panel-titlebar-icon {
+	float: left !important;
+	margin-right: 20px;
+	margin-top: 0px !important
+}
+
+.ui-panel-titlebar {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #B9F1FF
+}
+
+.ui-panel .ui-panel-content {
+	/* 	background: #ECFBFF; */
+	/* 	border-left: 1px solid #B9F1FF; */
+	/* 	border-right: 1px solid #B9F1FF; */
+	/* 	border-bottom: 1px solid #B9F1FF; */
+	
+}
+
+.ui-panel-title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #0085B2;
+}
+
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default
+	{
+	text-transform: none;
+}
+
+.ui-button-text-only .ui-button-text {
+	padding: .3em 1em !important;
+}
+
+.ui-selectonemenu {
+	display: block
+}
+
+.ui-menuitem-text {
+	padding-top: 2px;
+}
+/*ICONES*/
+span.botaoSalvar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoSalvar.png)
+		no-repeat !important;
+}
+
+span.botaoVoltar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoVoltar.png)
+		no-repeat !important;
+}
+
+span.botaoContinuar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoContinuar.png)
+		no-repeat !important;
+}
+
+span.botaoFarmacia {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoFarmacia.png)
+		no-repeat !important;
+}
+
+span.botaoExportar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoExportar.png)
+		no-repeat !important;
+}
+
+span.botaoCancelar,span.botaoLimpar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoCancelar.png)
+		no-repeat !important;
+}
+
+span.botaoMenos {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoMenos.png)
+		no-repeat !important;
+	top: 10px !important;
+	left: 10px !important
+}
+
+span.botaoAdicionar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoAdicionar.png)
+		no-repeat !important;
+}
+
+span.botaoPesquisar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoPesuisar.png)
+		no-repeat left top !important;
+}
+
+span.botaoImprimir {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoImprimir.png)
+		no-repeat left top !important;
+}
+
+.ui-icon-search {
+	width: 22px;
+	height: 22px;
+	background: url(/prescricao/resources/img/botoes/pesquisa-tabela.png)
+		no-repeat left top !important;
+}
+
+span.botaoMedico {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoMedico.png)
+		no-repeat !important;
+}
+
+/*Nova receita*/
+.txt-area-quantidade {
+	font-size: 22px !important;
+	font-weight: bold !important;
+	color: #0085B2;
+	text-align: center !important;
+}
+
+.campo-nome-med {
+	font-size: 16px;
+	color: #0085B2;
+	height: 48px !important;
+}
+
+.campo-posologia {
+	font-size: 16px;
+	color: #0085B2;
+	height: 48px !important;
+}
+
+span.botaoAssinar {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoAssinar.png)
+		no-repeat !important;
+}
+
+span.botaoImprimir {
+	width: 24px;
+	height: 24px;
+	background: url(/prescricao/resources/img/botoes/botaoImprimir.png)
+		no-repeat !important;
+}
+
+.hide-column-names table thead tr {
+	display: none;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.panelGridVisualizarReceita {
+	text-align: center;
+	width: 100%;
+}
+
+.painelDadosPaciente {
+	width: 650px
+}
+
+.monetario {
+	width: 50px !important
+}
+
+.ui-state-active {
+	background-color: #0085B2 !important;
+	color: #fff !important;
+	text-shadow: none !important;
+}
+
+.ui-dialog-titlebar {
+	background: #0085B2;
+	color: #fff;
+}
+
+.ui-dialog-buttonpane {
+	text-align: center !important;
+}
+
+.campos-parametro {
+	size: 150;
+}
+
+.menu-principal .ui-menu-list .ui-menu-list .ui-menuitem-link {
+	padding: 5px 0 !important;
+	white-space: nowrap
+}
+
+.menu-principal .ui-menu-list .ui-menu-list .ui-menuitem-link:hover {
+	background: #eee
+}
+
+.ui-menu-child {
+	width: auto !important;
+}
+
+.ui-menu-child .ui-menuitem-link {
+	width: 100%;
+}
+
+.botoes-filtro {
+	width: 100%
+}
+
+.boldClass {
+	font-weight: bold;
+}
+
+.lineChartOver {
+	margin-left: 20px;
+	background-color: rgb(180, 180, 180);
+}
+
+.jqplot-series-hidden {
+	text-decoration: line-through;
+}
+
+.tabela-overview {
+	margin-left: -140px;
+	margin-right: 50px;
+	border-collapse: separate;
+	border: 3px solid #ccc;
+	border-radius: 5px;
+}
+
+.tabela-overview td {
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.tabela-overview .boldclass {
+	background: #ccc;
+	padding: -8px
+}
+
+#formMeuPainel:filtros {
+	background: #ccc !important
+}
+
+.jqplot-table-legend {
+	top: 293px !important;
+}
+
+[id*='pieChart']>.jqplot-table-legend {
+	top: 0px !important;
+}
+
+[id*='formMeuPainel:tabView:tab'] {
+	height: 480px;
+}
+
+[id*='lineChartOverview']>.jqplot-table-legend {
+	top: 0px !important;
+}
+
+.tabela-overview label {
+	display: block;
+	text-align: right;
+	width: 90px;
+}
+
+.tabela-overview tr:first-child {
+	background-color: green;
+}
+
+.tabela-overview tr:first-child label {
+	color: white;
+}
+
+.tabela-overview tr:first-child {
+	background-color: green;
+}
+
+.tabela-overview tr td:first-child {
+	background-color: green;
+}
+
+.tabela-overview tr td:first-child label {
+	color: white;
+}
+
+.titulo-overview {
+	font-size: 18px !important;
+	left: -80px;
+	position: relative;
+}
+
+.tdOverView
+{
+		width: 20px;
+}
