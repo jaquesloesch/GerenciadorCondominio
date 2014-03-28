@@ -12,7 +12,7 @@ import java.sql.DriverManager;
  */
 public class Conexao {
 
-	private static String url = "jdbc:mysql://localhost:3306/teste";
+	private static String url = "jdbc:mysql://localhost:3306/imagem_upload";
 	private static String user = "root";
 	private static String senha = "";
 	private static Connection conn;
