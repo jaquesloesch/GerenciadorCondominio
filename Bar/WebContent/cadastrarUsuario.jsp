@@ -19,7 +19,8 @@
 
 	<form method="post" action="cadastrarUsuario.jsp">
 
-		<c:if test="${param.login != null}">
+
+		<c:if test="${param.login != '' && param.senha != ''}">
 			<c:catch var="erro">
 				<sql:transaction dataSource="${ds}">
 					<sql:update>
@@ -31,8 +32,8 @@
 				</sql:transaction>
 			</c:catch>
 
-
 		</c:if>
+
 		<table>
 			<tr>
 				<td><label>Tipo Usuario:</label></td>
